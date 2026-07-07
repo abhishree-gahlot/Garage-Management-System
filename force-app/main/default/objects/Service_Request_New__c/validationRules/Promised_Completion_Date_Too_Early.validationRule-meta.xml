@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Promised_Completion_Date_Too_Early</fullName>
+    <active>true</active>
+    <description>The Promised Completion Date must be greater than or equal to the Requested Date.</description>
+    <errorConditionFormula>Promised_Completion_Date__c   &lt;=   Requested_Date__c</errorConditionFormula>
+    <errorMessage>The Promised Completion Date cannot be earlier than the Requested Date. Please select a valid date.</errorMessage>
+</ValidationRule>

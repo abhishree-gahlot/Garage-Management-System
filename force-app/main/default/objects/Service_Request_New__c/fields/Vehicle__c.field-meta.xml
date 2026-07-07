@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>The vehicle this service request was created for. Used to retrieve vehicle details for worker assignment notifications and to update the vehicle&apos;s service history.</description>
+    <label>Vehicle</label>
+    <referenceTo>Vehicle__c</referenceTo>
+    <relationshipLabel>Service Requests</relationshipLabel>
+    <relationshipName>Service_Requests</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
