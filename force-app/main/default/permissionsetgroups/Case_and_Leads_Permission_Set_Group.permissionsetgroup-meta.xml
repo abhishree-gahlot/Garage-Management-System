@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Demo implementation</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Case and Leads Permission Set Group</label>
+    <mutingPermissionSets>Case_and_Leads_Permission_Set_Group_Muted</mutingPermissionSets>
+    <permissionSets>Case_Permissions</permissionSets>
+    <permissionSets>Leads_Permissions</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
